@@ -1,0 +1,72 @@
+.head_block{
+  color:purple;
+
+}
+
+.companyContainer1 {
+  border: solid red;
+  border-width: 0.2px;
+  text-align: center;
+  display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color: silver;  
+}
+
+.companyContainer2 {
+  border: solid pink;
+  border-width: 0.2px;
+  text-align: center;
+  display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color:silver;
+
+
+}
+.company {
+  border-radius: 22px;
+  font-size:22px;
+  border: solid grey;
+  margin: 20px;
+  /* width: 100%; */
+  padding: 12px;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+
+}
+
+#com_a:hover {
+  color: white;
+  background-color: lightblue;
+}
+#com_b:hover {
+  color: peru;
+  background-color: navy; 
+}
+#com_c:hover {
+  background-color: green;
+}
+#com_d:hover {
+  color: white;
+  background-color: goldenrod;
+}
+#com_e:hover {
+  color: white;
+  background-color: purple;
+}
+#com_f:hover {
+  color: white;
+  background-color:rgb(40, 112, 78);
+}
+.bizPic {
+  margin: 1em;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  border: solid white;
+}
